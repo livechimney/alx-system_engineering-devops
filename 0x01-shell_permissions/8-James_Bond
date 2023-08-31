@@ -1,0 +1,4 @@
+#!/bin/bash
+chmodg+whello
+chmod-rwxhello
+chmod777hello
