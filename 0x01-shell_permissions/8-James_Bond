@@ -1,4 +1,2 @@
 #!/bin/bash
-chmodg+whello
-chmod-rwxhello
-chmod777hello
+chmod 007hello 
