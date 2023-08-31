@@ -1,2 +1,2 @@
-#1/bin/bash
-chmod 711 hello
+#!/bin/bash
+chmod u=rwx,g=rx,o=wx hello 
