@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+#pings an IP address as an argument
+iF [[ $1 =~ ^[09]{1, 3}\.[0-9]{1, 3}\.[0-9]{1, 3}\.[0-9]{1, 3}$]]
+then
+	ping -c 5 "$1"
+else
+	echo "Usage:  5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
