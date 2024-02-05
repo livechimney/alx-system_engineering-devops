@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #display 'to inifinity and beyond' indefinetly
-while "true"
+while true
 do
-	echo "to infinity and beyond"
+	echo "To infinity and beyond"
 	sleep 2
 done
