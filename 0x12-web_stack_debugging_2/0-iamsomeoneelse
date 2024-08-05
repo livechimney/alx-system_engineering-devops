@@ -1,4 +1,4 @@
-#!/user/bin/env bas
+#!/usr/bin/env bash
 #run another user
 
-sudo -u "$1" whoami
+sudo -u root whoami
