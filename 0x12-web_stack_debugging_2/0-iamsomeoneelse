@@ -1,0 +1,4 @@
+#!/user/bin/env bas
+#run another user
+
+sudo -u "$1" whoami
